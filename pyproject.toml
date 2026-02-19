@@ -1,0 +1,11 @@
+[project]
+name = "beleg-buchung"
+version = "0.1.0"
+description = "Tool zum Einlesen und Verbuchen von Kassenbelegen nach deutschen Umsatzsteuerregeln"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = []
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+addopts = "-q"
